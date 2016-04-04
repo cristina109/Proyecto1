@@ -51,11 +51,20 @@ public class Ordenador {
         System.out.println(pantalla);
         
     }
+    
 //    static public void mostrarGarantia(){
 //         
 //       System.out.println("Todos los ordenadores tiene de  garantía: "+ garantia);
 //
 //}
+
+    public String getPantalla() {
+        return pantalla;
+    }
+
+    public boolean isOrdenadorEncendido() {
+        return ordenadorEncendido;
+    }
 
     
     }
